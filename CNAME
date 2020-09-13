@@ -1,0 +1,6 @@
+cd ~/dev/crosstheriver-website
+wintersmith build
+cd ~/dev/crosstheriver-website-deploy
+git add CNAME
+git commit -a -m "Adding the CNAME for custom domain"
+git push origin master
