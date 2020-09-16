@@ -68,7 +68,7 @@ if (!empty($_POST)) {
         '='.$value;
     }
     $post_string = implode('&', $post_items);
-    $curl_connection = curl_init('https://hooks.zapier.com/hooks/catch/6209943/o65di87/');
+    $curl_connection = curl_init('https://maker.ifttt.com/use/dYY3Q_K0w_UT_y5De35t9w');
     curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 30);
     curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
