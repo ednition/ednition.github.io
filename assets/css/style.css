@@ -1273,7 +1273,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
   color: #fff;
   font-size: 14px;
   position: relative;
