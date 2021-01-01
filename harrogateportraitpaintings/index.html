@@ -151,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="modal-body" >
         <div class="text-center font-weight-bold m-2 p-0"><h3 class="font-weight-bold">ENTER YOUR DETAILS</h3></div>
         <div class="formContainerBox">
-       <form id="my-form" action="https://formspree.io/xknpnrkj" style="background-color:#3c4d5c; " method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-db-page-id="4505">
+       <form data-netlify="true" name="harrogateportraitpaintingsformside" id="my-form" action="/side/" style="background-color:#3c4d5c; " method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-db-page-id="4505">
               <fieldset data-db-page-field-owner-id="4505">
               <div class="form-row">
                 <div class="col-md-6 form-group">
@@ -474,7 +474,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
             <h3>Find Out What We Can Do For You By Filling In Your Details</h3>
           
-          <form action="https://formspree.io/xknpnrkj" style="background-color:#3c4d5c; border: 4px solid #42CCAD; border-radius: 5px;" method="post" role="form" class="php-email-form p-4">
+          <form data-netlify="true" name="harrogateportraitpaintingsformtop" action="/thankyou/" style="background-color:#3c4d5c; border: 4px solid #42CCAD; border-radius: 5px;" method="post" role="form" class="php-email-form p-4">
             <div class="form-row">
               <div class="col-md-5 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -946,7 +946,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         <div class="col-lg-6 mt-4 mt-lg-0">
-          <form id="my-form" action="https://formspree.io/xknpnrkj" style="background-color:#3c4d5c; border: 4px solid #42CCAD; border-radius: 5px;" method="post" role="form" class="php-email-form">
+          <form data-netlify="true" name="harrogateportraitpaintingsformbottom" id="my-form" action="/thankyou/" style="background-color:#3c4d5c; border: 4px solid #42CCAD; border-radius: 5px;" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="col-md-5 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -1039,7 +1039,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
@@ -1050,55 +1049,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
                                  
-  <!-- Formspree code -->
-  <script>
-  window.addEventListener("DOMContentLoaded", function() {
-
-    // get the form elements defined in your form HTML above
-    
-    var form = document.getElementById("my-form");
-    var button = document.getElementById("my-form-button");
-    var status = document.getElementById("my-form-status");
-
-    // Success and Error functions for after the form is submitted
-    
-    function success() {
-      form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks!";
-    }
-
-    function error() {
-      status.innerHTML = "Oops! There was a problem.";
-    }
-
-    // handle the form submission event
-
-    form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      var data = new FormData(form);
-      ajax(form.method, form.action, data, success, error);
-    });
-  });
   
-  // helper function for sending an AJAX request
-
-  function ajax(method, url, data, success, error) {
-    var xhr = new XMLHttpRequest();
-    xhr.open(method, url);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        success(xhr.response, xhr.responseType);
-      } else {
-        error(xhr.status, xhr.response, xhr.responseType);
-      }
-    };
-    xhr.send(data);
-  }
-</script>
-
 </body>
 
 </html>
