@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="115mm"
    height="50mm"
    viewBox="0 0 115 50"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="ctr_logow.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1780"
+     inkscape:window-height="778"
+     id="namedview871"
+     showgrid="false"
+     inkscape:zoom="2.5238949"
+     inkscape:cx="217.32283"
+     inkscape:cy="94.488189"
+     inkscape:window-x="6"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <rect
@@ -149,11 +173,13 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999999999999716px;font-family:Palatino;-inkscape-font-specification:'Palatino Bold';stroke-width:0.264583;fill:#ffffff;">C</tspan></text>
     <g
        id="g2128"
-       transform="translate(-2.8888454,-0.26262231)">
+       transform="translate(-2.8888454,-0.26262231)"
+       style="fill:#ffffff">
       <g
-         id="g2123">
+         id="g2123"
+         style="fill:#ffffff">
         <rect
-           style="opacity:0.752412;fill:#800000;stroke-width:0.229463"
+           style="opacity:0.752412;fill:#ffffff;stroke-width:0.229463"
            id="rect2115"
            width="5.2916665"
            height="34.395836"
@@ -161,7 +187,7 @@
            y="7.9374976" />
       </g>
       <rect
-         style="opacity:0.752412;fill:#800000;stroke-width:0.238125"
+         style="opacity:0.752412;fill:#ffffff;stroke-width:0.238125"
          id="rect2120"
          width="21.166666"
          height="5.2916665"
