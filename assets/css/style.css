@@ -439,7 +439,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   font-family: "Poppins", sans-serif;
-  color: #213b52;
+  color: #01a1c9;
 }
 
 .section-title h2::before {
@@ -551,7 +551,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #213b52;
+  color: #01a1c9;
 }
 
 .about .content p {
@@ -689,7 +689,7 @@ section {
 .features .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #213b52;
+  color: #01a1c9;
 }
 
 .features .content ul {
@@ -1416,7 +1416,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #01a1c9;
 }
 
 .resume .resume-item {
@@ -1432,7 +1432,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #01a1c9;
   margin-bottom: 10px;
 }
 
