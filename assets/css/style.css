@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  background: #01a1c9;
 }
 
 #header .logo h1 {
@@ -1273,7 +1273,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  background-color: #01a1c9;
   color: #fff;
   font-size: 14px;
   position: relative;
