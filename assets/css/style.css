@@ -4,7 +4,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #01a1c9;
+  color: black;
+  font-weight: lighter;
 }
 
 a {
@@ -639,7 +640,7 @@ section {
 }
 
 .services .card-text {
-  color: #40c1df;
+
 }
 
 .services .read-more a {
