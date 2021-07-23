@@ -29,21 +29,21 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   right: 15px;
   bottom: 15px;
-  z-index: 99999;
-  background: $secondary;
+  z-index: 996;
+  background: $primary;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
 
   i {
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
     line-height: 0;
   }
 
   &:hover  {
-    background: $primary;
+    background: lighten($primary, 8);
     color: #fff;
   }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
+# Disable AOS delay on mobile
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {

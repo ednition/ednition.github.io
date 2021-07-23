@@ -24,11 +24,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    padding: 5px 15px 7px 15px;
+    margin-left: 5px;
     font-size: 14px; 
-    color: lighten($secondary, 55);
+    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
+    border-radius: 50px;
 
     i {
       font-size: 12px;
@@ -38,20 +40,7 @@
   }
 
   a:hover, .active, .active:focus, li:hover > a  {
-    color: #fff;
-  }
-
-  .getstarted {
-    background: $secondary;
-    color: #fff;
-    padding: 4px 25px 6px 25px;
-    margin-left: 30px;
-    border-radius: 50px;
-    border: 2px solid $primary;
-    &:hover {
-      background: $primary;
-      color: $secondary;
-    }
+    background: $primary;
   }
 
   .dropdown {
@@ -59,9 +48,9 @@
     ul {
       display: block;
       position: absolute;
-      left: 14px;
+      left: 5px;
       top: calc(100% + 30px);
-      margin: 0;
+      margin: 5px  0 0 0;
       padding: 10px 0;
       z-index: 99;
       opacity: 0;
@@ -69,7 +58,7 @@
       background: #fff;
       box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
       transition: 0.3s;
-      border-radius: 4px;
+      border-radius: 15px;
       
       li {
         min-width: 200px;
@@ -77,17 +66,16 @@
 
       a {
         padding: 10px 20px;
+        color: $secondary;
+        margin: 0 5px;
         font-size: 14px;
-        text-transform: none;
-        font-weight: 500;
-        color: lighten($secondary, 20);
         i {
           font-size: 12px;
         }
       }
 
       a:hover, .active:hover, li:hover > a {
-        color: $primary;
+        color:  #fff;
       }
 
     }
@@ -132,17 +120,12 @@
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: $primary;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
-  position: fixed;
-  right: 15px;
-  top: 15px;
-  z-index: 9998;
-  border: 0;
 }
 
 @media (max-width: 991px) {
@@ -190,18 +173,17 @@
 
   a {
     padding: 10px 20px;
+    margin: 5px;
     font-size: 15px; 
     color: $secondary;
   }
 
   a:hover, .active, li:hover > a  {
-    color: $primary;
+    color: #fff;
   }
 
   .getstarted {
     margin: 15px;
-    display: block;
-    border: 0;
   }
 
   .dropdown {
@@ -230,7 +212,7 @@
       }
 
       a:hover, .active:hover, li:hover > a {
-        color: $primary;
+        color: #fff;
       }
 
     }
