@@ -2,16 +2,6 @@
 <html lang="en">
 
 <head>
-
-  <script>
-    dataLayer = [{
-    'pageTitle': 'crosstheriver',
-    'visitorType': 'high-value',
-    'stepCompleted': '0of3'
-  }];
-</script>
-
-
 <!-- Anti-flicker snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
@@ -32,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Cross the River</title>
+  <title>Cross The River</title>
   <meta content="Let A Professional Website Designer Bring Your Business Back To Life" name="description">
   <meta content="website, webpage, bootstrap, html, css" name="keywords">
 
@@ -44,26 +34,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-<style>
+<style type="text/css">
+  .about .content .btn-learn-more:hover {
+    background: #ef6603;
+    color: #fff;
+    text-decoration: none;
+}
 
-   
-   .modal-dialog {
-      max-width:800px;
-   }
-   .modal-footer {
-      justify-content: center;
-   }
-    .formContainerBox {
+.formContainerBox {
         background-color: #01a1c9; 
         border: 0px solid #42CCAD;
         border-radius: 5px;
@@ -76,8 +66,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     input {
         border: none;
     }
-   
-</style>   
+    
+</style>
 
 </head>
 
@@ -87,24 +77,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
-
-
   <!-- ======= Header ======= -->
-  <header id="header">
-
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
         <h1 class="text-light">
           <img src="assets/img/ctrlogow.svg" class="img-fluid" style="height: 60px; width: 60px; fill:black">
-          <a href="index.html"> Cross the River<span>.</span></a></h1>
+          <a href="index.html"> CROSS THE RIVER<span style="color:#ef6603;">.</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#contact">Find Out More</a></li>
-          <li class="dropdown"><a href=""><span>Our Clients</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class=" scrollto" href="#contact">Find Out More</a></li>
+          <li class="dropdown"><a href="#"><span>Our Clients</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="../harrogateportraitpaintings/">Harrogate Portrait Paintings</a></li>
               <li><a href="../restorationliving/">Restoration Living</a></li>
@@ -120,23 +106,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
-    <div class="container">
-      <div class="row d-flex align-items-center">
-      <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
-        <h1>It Takes A Strong Fish To Swim Against The Current</h1>
-        <h2 style="color: darkslateblue;">Hosting | Websites | Developer</h2>
-        <a href="#contact" class="btn-get-started scrollto">Get Started</a>
-      </div>
-      <div class="col-lg-6 order-1 order-lg-2 hero-img" style="text-align: center;" data-aos="fade-left">
-        <div class="pt-5 text-white text-center">
-          <h1><b></h1>
+      <div class="row d-flex flex-wrap-reverse">
+          <div class="title-container col-lg-6">
+            <h2 class="animate__animated animate__fadeInDown ">It Takes A Strong Fish To Swim Against The Current</h2>
+            <p class="animate__animated fanimate__adeInUp">Hosting | Websites | Developer</p>
+            <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto" style="align-self: start;">Find Out More</a>
+          </div>
+          <div class="img-container col-lg-6">
+            
+            <p class="animate__animated animate__fadeInDown" style="text-align: center;"><img src="assets/img/ctrhero.svg" class="img-fluid" alt=""></p>
+            
+          </div>
+
         </div>
-        <img src="assets/img/ctrhero.svg" class="img-fluid" alt="">
-      </div>
     </div>
-    </div>
+
+   
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="#9edfec">
+      </g>
+
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
 
   </section><!-- End Hero -->
 
@@ -145,40 +146,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact">
       <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
 
         <div class="row d-flex flex-wrap-reverse">
 
-          <div class="col-lg-6">
-
+          <div class="col-lg-6 mt-2" data-aos="fade-right">
+ 
             <div class="row ">
               <div class="col-md-12">
-                <div class="section-title m-4 pb-0"><h2 style="color: dimgray;">Contact</h2></div>
                 <div class="" data-aos="fade-up">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37527.85422486937!2d-1.5640199281010394!3d53.99406184341504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48794e237175bd01%3A0x3c084fbaadea4ff!2sHarrogate!5e0!3m2!1sen!2suk!4v1601222278279!5m2!1sen!2suk" frameborder="0" style="border:0; width: 100%; height: 200px;" allowfullscreen></iframe>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-envelope"></i>
-                  <h3 style="color: dimgray;">Email Us</h3>
-                  <p>info@crosstheriver.co.uk</p>
-                </div>
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      <h4>Location:</h4>
+                      <p>Leyland Road, Harrogate</p>
+                    </div>
+                  </div>
               </div>
               <div class="col-md-6">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-map"></i>
-                  <h3 style="color: dimgray;">Our Address</h3>
-                  <p>Leyland Road, Harrogate</p>
-                </div>
+                <div class="info">
+                    <div class="email">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p><a href="mailto:info@crosstheriver.co.uk">info@crosstheriver.co.uk</a></p>
+                    </div>
+                  </div>
               </div>
             </div>
 
           </div>
 
-          <div class="col-lg-6">
-            <div class="section-title m-4 p-0"><h2 style="color: dimgray;">Enter Your Details</h2></div>
+          <div class="col-lg-6 mt-2 mb-2 mt-lg-0" data-aos="fade-left">
+
             <form  id="my-form" action="https://formspree.io/meqpjpwo" style="background-color:#01a1c9; border: 4px solid #42CCAD; border-radius: 5px;" method="POST" role="form" class="php-email-form" data-aos="fade-up">
 
               <div class="row">
@@ -203,6 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="text-center"><button id="my-form-button" class="p-2" type="submit" style="margin-top:10px; border-radius: 5px; background-color:#fdc134; width:50%;">Submit</button></div>
               <p id="my-form-status"></p>
             </form>
+
           </div>
 
         </div>
@@ -211,72 +221,127 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section><!-- End Contact Section -->
 
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
       <div class="container">
 
-        <div class="section-title">
-          <h2 data-aos="fade-in" style="color: dimgray;">Making Websites Win</h2>
-          <p data-aos="fade-in" >Winning websites are well written, user-firnedly, give people what they want, make the benefits clear and are trustworthy. </p>
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/screenshotpaintings.jpg" alt="...">
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Very helpful and supportive ,thank you for your help.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                
+                <h3>Sandra Baugh</h3>
               </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="" style="color: dimgray;">Website Building</a></h5>
-                <p class="card-text" >Let us carry your burden and save you time and money. We offer clean designs and still leave you in control over how the website looks and feels. </p>
-                <div class="read-more">
-                  <a data-bs-toggle="modal" data-bs-target="#modalwebsite"><i class="bi bi-arrow-right"></i> Read More</a>
-                </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Easy to use, very helpful.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                
+                <h3>Selma</h3>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/domainhosting.jpg" alt="...">
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  My friend has constructed a web site on which I am displaying my paintings. I like the site and look forward to when it becomes live. It is easy to use
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                
+                <h3>Alan</h3>
               </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="" style="color: dimgray;">Domain Hosting</a></h5>
-                <p class="card-text" >Besides the cost of maintaining your domain name, we provide free website hosting with no pop-up advertisements. There's no monthly nor yearly cost.</p>
-                <div class="read-more">
-                  <a data-bs-toggle="modal" data-bs-target="#modaldomain"><i class="bi bi-arrow-right"></i> Click Here For More Info</a>
-                </div>
-              </div>
-            </div>
+            </div><!-- End testimonial item -->
 
           </div>
-          
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Making Websites Win</h2>
+          <p>Well written and user-friendly</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6 col-md-12">
+            <div class="card-img text-center">
+                <img src="assets/img/screenshotpaintings.jpg" alt="...">
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in-left" style="margin-top: -60px; height: inherit; margin-left: 3%; margin-right: 3%;">
+              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Website Building</a></h4>
+              <p class="description">Let us carry your burden and save you time and money. We offer clean designs and still leave you in control over how the website looks and feels.
+              <br>
+              <a class="btn-learn-more" data-bs-toggle="modal" data-bs-target="#modalwebsite"> Learn More</a>
+              </p>
+              
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 mt-5 mt-md-0">
+            <div class="card-img text-center">
+                <img src="assets/img/domainhosting.jpg" alt="...">
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100" style="margin-top: -60px; height: inherit; margin-left: 3%; margin-right: 3%;">
+              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">Domain Hosting</a></h4>
+              <p class="description">Besides the cost of maintaining your domain name, we provide free website hosting with no pop-up advertisements. There's no monthly nor yearly cost.
+              <br>
+              <a data-bs-toggle="modal" data-bs-target="#modaldomain" class="btn-learn-more"> Click Here For More Info</a>
+              </p>
+              
+            </div>
+          </div>
+
+
+
+
         </div>
 
       </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container">
 
-        <div class="section-title">
-          <h2 data-aos="fade-in" style="color: dimgray;">Portfolio</h2>
-          <p data-aos="fade-in">This section highlight some of the projects that we have worked on, including charities that we support.</p>
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Portfolio</h2>
+          <p>What we've done</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-reviews">Reviews</li>
-              <li data-filter=".filter-charity">Charity</li>
-            </ul>
-          </div>
-        </div>
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-reviews">Reviews</li>
+          <li data-filter=".filter-charity">Charity</li>
+        </ul>
 
         <div class="row portfolio-container" data-aos="fade-up">
-
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-reviews">
             <div class="portfolio-wrap">
@@ -337,18 +402,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-   
-
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="#fff">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="#9edfec">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#01a1c9">
+      </g>
+    </svg>
+
+    <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top pt-5 pb-0">
+
+
+
+
+    <div class="footer-top pt-2 pb-0">
       <div class="container">
         <div class="row">
 
-        <div class="col-lg-6 col-md-6 mb-4">
+        <div class="col-lg-6 col-md-6">
             <div class="footer-info">
               <div class="row col-12 justify-content-center">
                 <div class="pr-2">
@@ -360,7 +443,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <p>
                 Leyland Road, Harrogate, United Kingdom<br><br>
-                <strong>Email:</strong> info@crosstheriver.co.uk<br>
+                <strong>Email:</strong> <a href="mailto:info@crosstheriver.co.uk" style="color:#fdc134">info@crosstheriver.co.uk</a><br>
               </p>
               <div class="social-links">
                 <a href="https://www.facebook.com/crosstheriversite" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -372,16 +455,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Art Sites</h4>
             <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
-              <li class="p-2"><a href="../harrogateportraitpaintings/">Harrogate Portrait Paintings</a></li>
-              <li class="p-2"><a href="../alancroftscraft/">Alan Croft's Craft</a></li>
+              <li class="p-2"><a href="../harrogateportraitpaintings/" style="color:#fdc134">Harrogate Portrait Paintings</a></li>
+              <li class="p-2"><a href="../alancroftscraft/" style="color:#fdc134">Alan Croft's Craft</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Other Websites</h4>
             <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
-              <li class="p-2"><a href="../restorationliving/">Restoration Living</a></li>
-              <li class="p-2"><a href="../271west/">271 West</a></li>
+              <li class="p-2"><a href="../restorationliving/" style="color:#fdc134">Restoration Living</a></li>
+              <li class="p-2"><a href="../271west/" style="color:#fdc134">271 West</a></li>
             </ul>
           </div>
 
@@ -394,10 +477,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     © Copyright <strong><span>Cross The River</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-    Designed by <a href="../edwardcheung/">Edward Cheung</a>
+    Designed by <a href="../edwardcheung/" style="color:#fdc134">Edward Cheung</a>
       </div>
     </div>
   </footer><!-- End Footer -->
+
 
 <!-- Modal Website -->
 <div class="modal fade" id="modalwebsite" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -452,6 +536,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -459,7 +544,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
@@ -513,9 +597,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     xhr.send(data);
   }
 </script>
-
-
-
 
 </body>
 
