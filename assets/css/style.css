@@ -559,7 +559,7 @@ section {
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
@@ -578,7 +578,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: "Poppins", sans-serif;
   color: #2a2c39;
 }
