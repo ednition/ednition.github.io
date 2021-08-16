@@ -899,8 +899,10 @@ h1, h2, h3, h4, h5, h6 {
 # Gallery Section
 --------------------------------------------------------------*/
 #gallery {
-  padding: 60px;
+  padding-top: 60px;
   overflow: hidden;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
 }
 
 #gallery .swiper-pagination {
