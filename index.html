@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <!-- Anti-flicker snippet (recommended)  -->
 <style>.async-hide { opacity: 0 !important} </style>
@@ -680,6 +680,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 </div>
 
+<div class="row" id="cookie">
+  <div class="col-md-12 col-sm-12 " style="bottom: 0;position: fixed;right: 0;border-radius: 4px;">
+    <div class="p-3 pb-3 bg-dark text-white text-center">
+
+      <p style="font-size: 12px;">By clicking on form field(s)/button(s) or other link(s) on this website or Accept, you agree to the use of cookies and other technologies to process your personal data to enhance and personalise your experience. Additionally, third-party companies, who we partner with, may store cookies on your device and use similar technologies to collect and use certain information for advertising personalisation, measurement and analytics. <a href="privacy.html">Learn more here</a>
+      </p>
+      <button type="button" onclick="cookieFunction()" class="btn btn-danger " style="background-color: #20C19E; font-size: 12px;">Accept</button>
+    </div>
+  </div>
+</div>
+<script>
+function cookieFunction() {
+  var x = document.getElementById("cookie");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -707,8 +728,8 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->  
-        
-  </body>
+<!--End of Tawk.to Script--> 
+
+</body>
 
 </html>
