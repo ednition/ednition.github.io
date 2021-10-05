@@ -952,16 +952,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </footer><!-- End Footer -->
 
-<div class="row" id="cookie" >
-  <div class="col-md-12 col-sm-12 " style="bottom: 0;position: fixed;right: 0;border-radius: 4px;z-index: 1001;">
-    <div class="p-3 pb-3 bg-dark text-white text-center">
+<div class="row" id="cookie" style="">
+  <div class="col-md-12 col-sm-12 m-2" >
+    <div class="p-2 pb-2 bg-dark bg-white text-black text-left" style="margin-left: 10px; margin-right: 10px; bottom: 10px; position:fixed;  border-radius:5px; box-shadow: 1px 2px 2px 1px; z-index:1001;">
 
-      <p style="font-size: 12px;">By clicking on form field(s)/button(s) or other link(s) on this website or Accept, you agree to the use of cookies and other technologies to process your personal data to enhance and personalise your experience. Additionally, third-party companies, who we partner with, may store cookies on your device and use similar technologies to collect and use certain information for advertising personalisation, measurement and analytics. <a href="../privacy.html">Learn more here</a>
-      </p>
-      <button type="button" onclick="cookieFunction()" class="btn btn-danger " style="background-color: #20C19E; font-size: 12px;">Accept</button>
+      <div style="font-size: 12px;">By clicking on form field(s)/button(s) or other link(s) on this website or Accept, you agree to the use of cookies and other technologies to process your personal data to enhance and personalise your experience.  <a href="../privacy.html">Learn more here</a>
+        <button type="button" onclick="cookieFunction()" class="btn btn-danger px-2 p-0 " style="background-color: #20C19E; font-size: 12px;">Accept</button>
+      </div>
+      
     </div>
   </div>
 </div>
+
 <script>
 function cookieFunction() {
   var x = document.getElementById("cookie");
